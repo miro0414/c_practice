@@ -1,3 +1,0 @@
-need to use fflush(stdout) to clear buffer.
-I do it by eprintf which is define as below.
-#define eprintf(...) printf(__VA_ARGS__); fflush(stdout);
